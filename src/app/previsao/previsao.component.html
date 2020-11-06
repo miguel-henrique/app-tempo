@@ -1,0 +1,29 @@
+
+
+<img layout-align="layout-align-md" src="https://naturam.com.br/ilhabela/wp-content/uploads/2017/06/Previsao-do-tempo-Ilhabela.png">
+<hr>
+<h1>PREVISÃO DO TEMPO </h1>
+<hr>
+
+
+ Informe a cidade :  <input type="text"  [(ngModel)]="previsao.by">
+ <button (click)=teste()>Enviar</button>
+ <hr>
+ <p>Data: {{previsao.results.date}}</p>
+ <hr>
+
+ <hr>
+ <p>Hora: {{previsao.results.time}}</p>
+ <hr>
+
+<hr>
+<p>Cidade: {{previsao.results.city}}</p>
+<hr>
+
+<hr>
+  <p>Temperatura:  {{previsao.results.condition_code}}</p>
+  <hr>
+
+  <hr>
+  <p>Descrição: {{previsao.results.description}}</p>
+  <hr>
